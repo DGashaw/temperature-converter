@@ -1,10 +1,11 @@
 {
   "name": "temperature-converter",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Converts temperature from Celsius to Fahrenheit to Celsius and vice versa",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js",
+    "lint": "semistandard *.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
     "utility]"
   ],
   "author": "Daniel Gashaw",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "semistandard": "17.0.0"
+  }
 }
