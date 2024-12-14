@@ -1,6 +1,6 @@
 {
-  "name": "temperature-converter",
-  "version": "0.1.0",
+  "name": "@danmanutd/temperature-converter",
+  "version": "1.0.0",
   "description": "Converts temperature from Celsius to Fahrenheit to Celsius and vice versa",
   "main": "index.js",
   "scripts": {
@@ -8,9 +8,13 @@
     "lint": "semistandard *.js"
   },
   "repository": {
-    "type": "git",
-    "url": "{type: git, url: https://github.com/DGashaw/temperature-converter.git}"
+    "type": "git", 
+    "url": "https://github.com/DGashaw/temperature-converter.git}"
   },
+  "bugs": {
+    "url": "https://github.com/DGashaw/temperature-converter/issues"
+  },
+  "homepage": "https://github.com/DGashaw/temperature-converter/#readme",
   "keywords": [
     "[temperature",
     "converter",
